@@ -16,7 +16,7 @@
 		F31AEC6B17329012005D5B01 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31AEC6917329012005D5B01 /* MainStoryboard_iPhone.storyboard */; };
 		F31AEC6E17329012005D5B01 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31AEC6C17329012005D5B01 /* MainStoryboard_iPad.storyboard */; };
 		F31AEC7117329012005D5B01 /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31AEC7017329012005D5B01 /* ImaginariumViewController.m */; };
-		F3BD2CD91732970800D06C59 /* 1280x800_fond-ecran-ferrari-f430-scuderia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2CD81732970800D06C59 /* 1280x800_fond-ecran-ferrari-f430-scuderia.jpeg */; };
+		F3BD2CDC1732AC8E00D06C59 /* Imaginarium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3BD2CDB1732AC8E00D06C59 /* Imaginarium.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		F31AEC6D17329012005D5B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F31AEC6F17329012005D5B01 /* ImaginariumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
 		F31AEC7017329012005D5B01 /* ImaginariumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
-		F3BD2CD81732970800D06C59 /* 1280x800_fond-ecran-ferrari-f430-scuderia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1280x800_fond-ecran-ferrari-f430-scuderia.jpeg"; sourceTree = "<group>"; };
+		F3BD2CDB1732AC8E00D06C59 /* Imaginarium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Imaginarium.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				F31AEC6617329012005D5B01 /* ImaginariumAppDelegate.h */,
 				F31AEC6717329012005D5B01 /* ImaginariumAppDelegate.m */,
-				F3BD2CD81732970800D06C59 /* 1280x800_fond-ecran-ferrari-f430-scuderia.jpeg */,
 				F31AEC6917329012005D5B01 /* MainStoryboard_iPhone.storyboard */,
 				F31AEC6C17329012005D5B01 /* MainStoryboard_iPad.storyboard */,
+				F3BD2CDB1732AC8E00D06C59 /* Imaginarium.jpg */,
 				F31AEC6F17329012005D5B01 /* ImaginariumViewController.h */,
 				F31AEC7017329012005D5B01 /* ImaginariumViewController.m */,
 				F31AEC5E17329012005D5B01 /* Supporting Files */,
@@ -157,7 +157,7 @@
 				F31AEC6217329012005D5B01 /* InfoPlist.strings in Resources */,
 				F31AEC6B17329012005D5B01 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F31AEC6E17329012005D5B01 /* MainStoryboard_iPad.storyboard in Resources */,
-				F3BD2CD91732970800D06C59 /* 1280x800_fond-ecran-ferrari-f430-scuderia.jpeg in Resources */,
+				F3BD2CDC1732AC8E00D06C59 /* Imaginarium.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
