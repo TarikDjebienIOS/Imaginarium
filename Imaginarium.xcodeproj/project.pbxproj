@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31AEC5817329012005D5B01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31AEC5717329012005D5B01 /* UIKit.framework */; };
+		F31AEC5A17329012005D5B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31AEC5917329012005D5B01 /* Foundation.framework */; };
+		F31AEC5C17329012005D5B01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31AEC5B17329012005D5B01 /* CoreGraphics.framework */; };
+		F31AEC6217329012005D5B01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F31AEC6017329012005D5B01 /* InfoPlist.strings */; };
+		F31AEC6417329012005D5B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F31AEC6317329012005D5B01 /* main.m */; };
+		F31AEC6817329012005D5B01 /* ImaginariumAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F31AEC6717329012005D5B01 /* ImaginariumAppDelegate.m */; };
+		F31AEC6B17329012005D5B01 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31AEC6917329012005D5B01 /* MainStoryboard_iPhone.storyboard */; };
+		F31AEC6E17329012005D5B01 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31AEC6C17329012005D5B01 /* MainStoryboard_iPad.storyboard */; };
+		F31AEC7117329012005D5B01 /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31AEC7017329012005D5B01 /* ImaginariumViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F31AEC5317329012005D5B01 /* Imaginarium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaginarium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31AEC5717329012005D5B01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F31AEC5917329012005D5B01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F31AEC5B17329012005D5B01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F31AEC5F17329012005D5B01 /* Imaginarium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
+		F31AEC6117329012005D5B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F31AEC6317329012005D5B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F31AEC6517329012005D5B01 /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
+		F31AEC6617329012005D5B01 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
+		F31AEC6717329012005D5B01 /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
+		F31AEC6A17329012005D5B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F31AEC6D17329012005D5B01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F31AEC6F17329012005D5B01 /* ImaginariumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
+		F31AEC7017329012005D5B01 /* ImaginariumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31AEC5017329011005D5B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31AEC5817329012005D5B01 /* UIKit.framework in Frameworks */,
+				F31AEC5A17329012005D5B01 /* Foundation.framework in Frameworks */,
+				F31AEC5C17329012005D5B01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31AEC4817329011005D5B01 = {
+			isa = PBXGroup;
+			children = (
+				F31AEC5D17329012005D5B01 /* Imaginarium */,
+				F31AEC5617329012005D5B01 /* Frameworks */,
+				F31AEC5417329012005D5B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31AEC5417329012005D5B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31AEC5317329012005D5B01 /* Imaginarium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31AEC5617329012005D5B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31AEC5717329012005D5B01 /* UIKit.framework */,
+				F31AEC5917329012005D5B01 /* Foundation.framework */,
+				F31AEC5B17329012005D5B01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31AEC5D17329012005D5B01 /* Imaginarium */ = {
+			isa = PBXGroup;
+			children = (
+				F31AEC6617329012005D5B01 /* ImaginariumAppDelegate.h */,
+				F31AEC6717329012005D5B01 /* ImaginariumAppDelegate.m */,
+				F31AEC6917329012005D5B01 /* MainStoryboard_iPhone.storyboard */,
+				F31AEC6C17329012005D5B01 /* MainStoryboard_iPad.storyboard */,
+				F31AEC6F17329012005D5B01 /* ImaginariumViewController.h */,
+				F31AEC7017329012005D5B01 /* ImaginariumViewController.m */,
+				F31AEC5E17329012005D5B01 /* Supporting Files */,
+			);
+			path = Imaginarium;
+			sourceTree = "<group>";
+		};
+		F31AEC5E17329012005D5B01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F31AEC5F17329012005D5B01 /* Imaginarium-Info.plist */,
+				F31AEC6017329012005D5B01 /* InfoPlist.strings */,
+				F31AEC6317329012005D5B01 /* main.m */,
+				F31AEC6517329012005D5B01 /* Imaginarium-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31AEC5217329011005D5B01 /* Imaginarium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31AEC7417329012005D5B01 /* Build configuration list for PBXNativeTarget "Imaginarium" */;
+			buildPhases = (
+				F31AEC4F17329011005D5B01 /* Sources */,
+				F31AEC5017329011005D5B01 /* Frameworks */,
+				F31AEC5117329011005D5B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imaginarium;
+			productName = Imaginarium;
+			productReference = F31AEC5317329012005D5B01 /* Imaginarium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31AEC4A17329011005D5B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F31AEC4D17329011005D5B01 /* Build configuration list for PBXProject "Imaginarium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F31AEC4817329011005D5B01;
+			productRefGroup = F31AEC5417329012005D5B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31AEC5217329011005D5B01 /* Imaginarium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31AEC5117329011005D5B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31AEC6217329012005D5B01 /* InfoPlist.strings in Resources */,
+				F31AEC6B17329012005D5B01 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F31AEC6E17329012005D5B01 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31AEC4F17329011005D5B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31AEC6417329012005D5B01 /* main.m in Sources */,
+				F31AEC6817329012005D5B01 /* ImaginariumAppDelegate.m in Sources */,
+				F31AEC7117329012005D5B01 /* ImaginariumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F31AEC6017329012005D5B01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31AEC6117329012005D5B01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F31AEC6917329012005D5B01 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31AEC6A17329012005D5B01 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F31AEC6C17329012005D5B01 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31AEC6D17329012005D5B01 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31AEC7217329012005D5B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31AEC7317329012005D5B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31AEC7517329012005D5B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
+				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F31AEC7617329012005D5B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Imaginarium/Imaginarium-Prefix.pch";
+				INFOPLIST_FILE = "Imaginarium/Imaginarium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31AEC4D17329011005D5B01 /* Build configuration list for PBXProject "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31AEC7217329012005D5B01 /* Debug */,
+				F31AEC7317329012005D5B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31AEC7417329012005D5B01 /* Build configuration list for PBXNativeTarget "Imaginarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31AEC7517329012005D5B01 /* Debug */,
+				F31AEC7617329012005D5B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31AEC4A17329011005D5B01 /* Project object */;
+}
