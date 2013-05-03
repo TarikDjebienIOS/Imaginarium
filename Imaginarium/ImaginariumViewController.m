@@ -3,7 +3,7 @@
 //  Imaginarium
 //
 //  Created by Tarik Djebien on 02/05/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2013 __LSO_Medical__. All rights reserved.
 //
 
 #import "ImaginariumViewController.h"
